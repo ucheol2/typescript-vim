@@ -263,7 +263,7 @@ if version >= 508 || !exists("did_typescript_syn_inits")
   HiLink typescriptPrototype Type
   HiLink typescriptConditional Conditional
   HiLink typescriptBranch Conditional
-  HiLink typescriptIdentifier Identifier
+  HiLink typescriptIdentifier Special
   HiLink typescriptStorageClass StorageClass
   HiLink typescriptRepeat Repeat
   HiLink typescriptStatement Statement
@@ -275,7 +275,7 @@ if version >= 508 || !exists("did_typescript_syn_inits")
   HiLink typescriptParensErrA Error
   HiLink typescriptParensErrB Error
   HiLink typescriptParensErrC Error
-  HiLink typescriptReserved Keyword
+  HiLink typescriptReserved Include
   HiLink typescriptOperator Operator
   HiLink typescriptType Type
   HiLink typescriptNull Type
@@ -283,11 +283,11 @@ if version >= 508 || !exists("did_typescript_syn_inits")
   HiLink typescriptFloat Number
   HiLink typescriptDecorators Special
   HiLink typescriptBoolean Boolean
-  HiLink typescriptLabel Label
+  HiLink typescriptLabel StorageClass
   HiLink typescriptSpecial Special
   HiLink typescriptSource Special
   HiLink typescriptGlobalObjects Special
-  HiLink typescriptExceptions Special
+  HiLink typescriptExceptions Exception
 
   HiLink typescriptDomErrNo Constant
   HiLink typescriptDomNodeConsts Constant
